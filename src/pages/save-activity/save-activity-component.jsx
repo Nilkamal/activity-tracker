@@ -14,7 +14,6 @@ const SaveActivity = (props) => {
   const [date, setDate] = useState("");
 
   useEffect(() => {
-    debugger;
     if (props.activity) {
       setActivity(props.activity.activity);
       setDescription(props.activity.description);
